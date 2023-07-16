@@ -1,1 +1,1 @@
-# siec_GSM
+projekt siec gsm zrobic opis
