@@ -1,4 +1,4 @@
-#SIEĆ GSM
+# SIEĆ GSM
 
 Opis aplikacji:
 
