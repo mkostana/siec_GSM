@@ -10,10 +10,7 @@ Użytkownik aplikacji tworzy obiekty VBD przy użyciu przycisku "ADD" w dolnej c
 
 **Założenia aplikacji:**
 
-Każdy BSC przechowuje SMS przez losowy czas od 5 do 15 sekund, a następnie przekazuje go do kolejnej warstwy.
-
-Każdy BTS przekazuje SMS do kolejnej warstwy lub VRD po upływie 3 sekund.
-
-Jeżeli w danej warstwie ilość SMS w bażdym BSC lub BTS jest większa od 5, automatycznie dodawany jest nowy BTS/BSC.
-
-Jeżeli okaże się, że numer odbiorczy, pod który został wysłany SMS nie istnieje, program podniesie wyjątek a system obsłuży go wyświetlając komunikat w konsoli.
+- Każdy BSC przechowuje SMS przez losowy czas od 5 do 15 sekund, a następnie przekazuje go do kolejnej warstwy.
+- Każdy BTS przekazuje SMS do kolejnej warstwy lub VRD po upływie 3 sekund.
+- Jeżeli w danej warstwie ilość SMS w bażdym BSC lub BTS jest większa od 5, automatycznie dodawany jest nowy BTS/BSC.
+- Jeżeli okaże się, że numer odbiorczy, pod który został wysłany SMS nie istnieje, program podniesie wyjątek a system obsłuży go wyświetlając komunikat w konsoli.
